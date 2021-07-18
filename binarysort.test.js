@@ -41,10 +41,11 @@
 console.log(_binS([1,2,3,4,5],2))
 
 
-//   describe("bin sort", ()=>{
-//      it('it should be sorted ' , () =>{
-//          assert.deepEqual(_binS([1,2],0) ,[1,2]);
-//      });
-//   });
+  describe("bin sort", ()=>{
+     it('it should be sorted ' , () =>{
+         // assert.deepEqual(_binS([1,2],0) ,[1,2]);
+         assert.assertTrue(_binS([1,2],0) ,false);
+     });
+  });
   
 //   mocha.run();

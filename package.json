@@ -1,0 +1,29 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "priorityQueue.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oshigoto46/algorithm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oshigoto46/algorithm/issues"
+  },
+  "dependencies": {
+    "cassandra-driver": "3.5.0",
+    "chai": "4.2.0",
+    "chai-http": "4.2.0",
+    "express": "4.16.4",
+    "mocha": "^6.2.3",
+    "mocha-junit-reporter": "1.18.0",
+    "request-promise": "4.2.2",
+    "should": "^13.2.3"
+  },
+  "homepage": "https://github.com/oshigoto46/algorithm#readme"
+}

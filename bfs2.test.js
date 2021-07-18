@@ -38,7 +38,7 @@ function bfs(node){
     let   result = [];
 
     while(queue.length){
-        const first = queue.shift() //.splice(0,1) //  node 1 childeNode (node 2 node 5)
+        const first = queue.shift //.splice(0,1)[0] //  node 1 childeNode (node 2 node 5)
         console.log(first)
         console.log(first.childNode)
         result.push(first.node)         // 

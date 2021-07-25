@@ -52,6 +52,12 @@ const problem = {
     while (node) {
       let cost = costs[node];
       let children = graph[node];
+
+      console.log("==👇====")
+      console.log("parents" + JSON.stringify(parents))
+      console.log("children" + JSON.stringify(children))
+      console.log("costs" + JSON.stringify(costs))
+      console.log("===👆===")
       for (let n in children) {
         let newCost = cost + children[n];
         if (!costs[n]) {
